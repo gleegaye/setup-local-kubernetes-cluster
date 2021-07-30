@@ -143,7 +143,7 @@ This is the pod manifest, lets save it a file tha we could we use for versionnin
 ```
 now, we can easily create a pod by the good way.
 ```shell
-λ  kubectl create -f  C:\Users\u162842\Documents\k8s\nginx-pod.yaml
+λ  kubectl create -f  /Documents/k8s/nginx-pod.yaml
 pod/nginx created
 ```
 list our existing pods (all pods in all namespaces)
@@ -198,7 +198,7 @@ There is no running container.
 
 Now, we are going to deploy our HA kubernetes cluster
 ```shell
-λ  kind create cluster --config  C:\Users\u162842\Documents\k8s\my-cluster.yaml
+λ  kind create cluster --config  /Documents/k8s/my-cluster.yaml
 Creating cluster "kind" ...
  • Ensuring node image (kindest/node:v1.21.1) �  ...
  ✓ Ensuring node image (kindest/node:v1.21.1) �
